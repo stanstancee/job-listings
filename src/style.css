@@ -1,19 +1,72 @@
-body{
-    background-color:hsl(180, 31%, 95%);
-    font-size:15px;
+body {
+    background-color: hsl(180, 31%, 95%);
+
     font-family: 'Spartan', sans-serif;
+    margin: 30px;
 
 }
-.filter{
-    display:inline;
-    padding-bottom: 50px;
+
+.filter {
+    display: inline;
+    position: relative;
+    top: 40px;
+    background-color:hsl(180, 52%, 96%) ;
+    color: hsl(180, 14%, 20%);
+
 }
-#new{
-    background-color:hsl(180, 8%, 52%);
+.filter:hover,.search:hover , .clear:hover{
+    background-color:hsl(180, 14%, 20%) ;
+    color: white ;
+    cursor: pointer;
+}
+
+#new {
+    background-color: hsl(180, 8%, 52%);
+    color: white;
+}
+
+#featured {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.first ,.second{
+border-radius: 15px;
+padding:12px;
+}
+
+.company{
+    font-weight: 900;
+    color:hsl(180, 14%, 20%);
+}
+
+.search{
+    color: hsl(180, 14%, 20%);
+    background-color:hsl(180, 52%, 96%);
+    padding:10px ;
+    text-decoration: underline;
+}
+.clear{
+    float:right;
+    background-color:rgb(114, 177, 206);
+    border-radius:15px ;
 }
 
 
 
+@media scre
 
 
 
@@ -34,11 +87,6 @@ body{
 
 
 
-
-
-
-
-.die{
+.die {
     display: none;
 }
-
