@@ -1,0 +1,44 @@
+body{
+    background-color:hsl(180, 31%, 95%);
+    font-size:15px;
+    font-family: 'Spartan', sans-serif;
+
+}
+.filter{
+    display:inline;
+    padding-bottom: 50px;
+}
+#new{
+    background-color:hsl(180, 8%, 52%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.die{
+    display: none;
+}
+
