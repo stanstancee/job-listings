@@ -35,7 +35,6 @@ function getData(data) {
         <h3 class="filter" data-role=${data.tools[0]}> ${data.tools.length > 0 ? data.tools[0]:" "}</h3> <h3 class="filter" data-role=${data.tools[1]}> ${data.tools.length >1 ? data.tools[1]:" "}</h3>
       </div>`
         father.appendChild(div);
-
     });
     searchArray.map(element => {
 
